@@ -1,3 +1,17 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+body.dark {
+    background-color: #111;
+    color: white;
+}
+
+body.dark a {
+    color: white;
+}
+
 .header {
     display: flex;
     flex-direction: column;
