@@ -1,6 +1,6 @@
 /*
 
-let darkMode: boolean = false;
+let darkMode: boolean = true;
 
 const button = document.getElementById("toggleTheme")!;
 

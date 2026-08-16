@@ -1,6 +1,6 @@
 // GENERATED VIA TS
 
-var darkMode = false;
+var darkMode = true;
 var button = document.getElementById("toggleTheme");
 var savedTheme = localStorage.getItem("theme");
 if (savedTheme == "dark") {
