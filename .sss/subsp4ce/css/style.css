@@ -1,0 +1,54 @@
+/* main page */
+body
+{
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+/* dark theme */
+body.dark
+{
+    background-color: #111;
+    color: white;
+}
+
+/* links */
+a
+{
+    color: rgb(192, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* attribute when link is hovered */
+a:hover
+{
+    text-decoration: underline;
+}
+
+/* "notice" class ref */
+.notice
+{
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* paragraph inside notice class */
+.notice p
+{
+    max-width: 700px;
+    text-align: center;
+}
+
+/* self explanatory */
+.spooky
+{
+    color: rgb(192, 0, 0);
+    font-family:fantasy;
+    text-align: center;
+}
