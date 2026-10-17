@@ -23,7 +23,7 @@ body.dark
     min-height: 100vh;
     background: linear-gradient(to bottom, #363636, black);
     background-repeat: no-repeat;
-    background-size: 100% 40px; /* gradient only covers the top 120 pixels */
+    background-size: 100% 120px; /* gradient only covers the top 120 pixels */
 }
 
 /* link styles */
