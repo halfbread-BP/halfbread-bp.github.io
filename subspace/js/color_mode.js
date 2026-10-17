@@ -1,4 +1,6 @@
 var darkMode = true;
+
+// local cached storage
 var button = document.getElementById("toggleTheme");
 var savedTheme = localStorage.getItem("theme");
 

@@ -1,15 +1,18 @@
+/* main style */
 body
 {
     background-color: white;
     color: black;
 }
 
+/* main style in dark theme */
 body.dark
 {
     background-color: #111;
     color: white;
 }
 
+/* link styles */
 a
 {
     color: blue;
@@ -17,11 +20,13 @@ a
     font-weight: bold;
 }
 
+/* style when hovering over link */
 a:hover
 {
     text-decoration: underline;
 }
 
+/* header style */
 header
 {
     display: flex;
@@ -32,6 +37,7 @@ header
     text-align: center;
 }
 
+/* style of the images in the header */
 .header-images
 {
     display: flex;
@@ -40,12 +46,14 @@ header
     gap: 20px;
 }
 
+/* more specifically */
 .header-images img
 {
     height: 120px;
     width: auto;
 }
 
+/* style of the paragraph in the header */
 header p
 {
     margin-top: 20px;

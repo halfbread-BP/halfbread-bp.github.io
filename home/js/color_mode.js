@@ -1,4 +1,7 @@
+// this script just changes the stored value that dictates whether dark mode is on or not
+
 var darkMode = true;
+
 var button = document.getElementById("toggleTheme");
 var savedTheme = localStorage.getItem("theme");
 
@@ -12,11 +15,12 @@ if (savedTheme == "dark")
 button.addEventListener("click", function()
 {
     darkMode = !darkMode;
-    if (darkMode) {
+
+    if (darkMode)
+    {
         document.body.classList.add("dark");
         localStorage.setItem("theme", "dark");
     }
-
     else
     {
         document.body.classList.remove("dark");

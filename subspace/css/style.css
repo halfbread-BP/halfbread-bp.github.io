@@ -1,3 +1,4 @@
+/* main page */
 body
 {
     background-color: white;
@@ -5,12 +6,14 @@ body
     margin: 0;
 }
 
+/* dark theme */
 body.dark
 {
     background-color: #111;
     color: white;
 }
 
+/* links */
 a
 {
     color: rgb(192, 0, 0);
@@ -18,11 +21,13 @@ a
     font-weight: bold;
 }
 
+/* attribute when link is hovered */
 a:hover
 {
     text-decoration: underline;
 }
 
+/* "notice" class ref */
 .notice
 {
     min-height: 100vh;
@@ -33,12 +38,14 @@ a:hover
     justify-content: center;
 }
 
+/* paragraph inside notice class */
 .notice p
 {
     max-width: 700px;
     text-align: center;
 }
 
+/* self explanatory */
 .spooky
 {
     color: rgb(192, 0, 0);
