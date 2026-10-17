@@ -22,24 +22,28 @@ a:hover
     text-decoration: underline;
 }
 
-.head-images
+header
+{
+    display: flex;
+    flex-direction: column;
+
+    /* centering */
+    align-items: center;
+    text-align: center;
+}
+
+.header-images
 {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
-.head-images img:first-child
+.header-images img
 {
     height: 80px;
     width: auto;
-}
-
-.head-images img:nth-child(2)
-{
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
 }
 
 header p
