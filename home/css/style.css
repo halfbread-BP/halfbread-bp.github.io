@@ -29,7 +29,7 @@ a:hover
     gap: 20px;
 }
 
-.header-images img
+.header-images img:first-child
 {
     height: 80px;
     width: auto;
@@ -37,7 +37,9 @@ a:hover
 
 .header-images img:nth-child(2)
 {
-    width: 20px;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
 }
 
 header p
