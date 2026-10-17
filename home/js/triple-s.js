@@ -11,6 +11,9 @@ const code =
 
 document.addEventListener("keydown", function(e)
 {
+    // verify it does anything
+    console.log(e.key);
+
     keys.push(e.key);
     keys = keys.slice(-code.length);
 
