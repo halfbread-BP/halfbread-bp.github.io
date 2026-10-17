@@ -22,20 +22,20 @@ a:hover
     text-decoration: underline;
 }
 
-.header-images
+.head-images
 {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.header-images img:first-child
+.head-images img:first-child
 {
     height: 80px;
     width: auto;
 }
 
-.header-images img:nth-child(2)
+.head-images img:nth-child(2)
 {
     width: 80px;
     height: 80px;
