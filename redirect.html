@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <!-- metadata used by SEO -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Half Bread Portfolio">
+        <meta name="keywords" content="HTML, CSS, JavaScript, half bread, portfolio, half bread portfolio, bread portfolio, half bread CV, halfbread-bp.info">
+        <meta name="author" content="hald bread">
+
+        <title>Half Bread - Portfolio</title>
+
+    </head>
+
+    <body>
+
+        <p id="message">You are being redirected...</p>
+
+        <script>
+
+            // never enough equal signs is there
+            if (localStorage.getItem("hasContinued") === "true")
+            {
+                window.location.replace("https://halfbread-bp.github.io/home");
+            }
+            else
+            {
+                window.location.replace("https://halfbread-bp.github.io/subspace");
+            }
+        
+        </script>
+
+    </body>
+
+</html>

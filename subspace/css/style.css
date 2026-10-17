@@ -1,25 +1,30 @@
-body {
+body
+{
     background-color: white;
     color: black;
     margin: 0;
 }
 
-body.dark {
+body.dark
+{
     background-color: #111;
     color: white;
 }
 
-a {
+a
+{
     color: rgb(192, 0, 0);
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover {
+a:hover
+{
     text-decoration: underline;
 }
 
-.notice {
+.notice
+{
     min-height: 100vh;
 
     display: flex;
@@ -28,12 +33,14 @@ a:hover {
     justify-content: center;
 }
 
-.notice p {
+.notice p
+{
     max-width: 700px;
     text-align: center;
 }
 
-.spooky {
+.spooky
+{
     color: rgb(192, 0, 0);
     font-family:fantasy;
     text-align: center;
