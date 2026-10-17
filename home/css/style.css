@@ -15,7 +15,7 @@ body.dark
 {
     color: white;
     background-color: #111;
-    background-image: linear-gradient(to bottom, #363636, #111);
+    background-image: linear-gradient(to bottom, #222222, #111);
     background-repeat: no-repeat;
     background-size: 100% 120px;
 }
