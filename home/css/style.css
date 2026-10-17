@@ -1,13 +1,11 @@
 /* main style */
 body
 {
-    background-color: white;
-    color: black;
-
-    /* gradient */
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #bdbcbc 0%, white);
+    color: black;
+    background-color: white;
+    background-image: linear-gradient(to bottom, #bdbcbc, white);
     background-repeat: no-repeat;
     background-size: 100% 120px;
 }
@@ -15,15 +13,11 @@ body
 /* main style in dark theme */
 body.dark
 {
-    background-color: #111;
     color: white;
-
-    /* gradient */
-    margin: 0;
-    min-height: 100vh;
-    background: linear-gradient(to bottom, #363636, black);
+    background-color: #111;
+    background-image: linear-gradient(to bottom, #363636, #111);
     background-repeat: no-repeat;
-    background-size: 100% 120px; /* gradient only covers the top 120 pixels */
+    background-size: 100% 120px;
 }
 
 /* link styles */
