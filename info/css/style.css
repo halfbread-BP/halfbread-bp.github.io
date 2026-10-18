@@ -5,9 +5,12 @@ body
     min-height: 100vh;
     color: black;
     background-color: white;
-    background-image: linear-gradient(to bottom, #bdbcbc, white);
+    background-image:
+        linear-gradient(to bottom, #bdbcbc, white),
+        linear-gradient(to top, #cccccc, white);
     background-repeat: no-repeat;
-    background-size: 100% 120px;
+    background-size: 100% 120px, 100% 60px;
+    background-position: top, bottom;
 }
 
 /* main style in dark theme */
@@ -16,9 +19,12 @@ body.dark
     margin: 1em;
     color: white;
     background-color: #111;
-    background-image: linear-gradient(to bottom, #333333, #111);
+    background-image:
+        linear-gradient(to bottom, #333333, #111),
+        linear-gradient(to top, #222222, #111);
     background-repeat: no-repeat;
-    background-size: 100% 120px;
+    background-size: 100% 120px, 100% 60px;
+    background-position: top, bottom;
 }
 
 /* link styles */
