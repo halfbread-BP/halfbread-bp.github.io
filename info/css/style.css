@@ -67,3 +67,9 @@ header p
 {
     margin-top: 20px;
 }
+
+/* style for all header */
+h1
+{
+    text-decoration: underline;
+}

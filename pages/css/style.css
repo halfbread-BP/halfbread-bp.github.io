@@ -1,0 +1,43 @@
+body
+{
+    margin: 1em;
+}
+
+/* styles for the headers in the header */
+header h1
+{
+    margin-bottom: 1em;
+}
+
+/* styles for headers */
+h1
+{
+    text-decoration: underline;
+}
+
+/* style for 2nd header */
+h2
+{
+    font-size: x-large;
+}
+
+/* style for paragraphs in the body */
+body p
+{
+    margin-top: -10px;
+    font-size: larger;
+}
+
+/* style for hyperlinks */
+a
+{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* style for hyperlinks when hovered */
+a:hover
+{
+    text-decoration: underline;
+}
