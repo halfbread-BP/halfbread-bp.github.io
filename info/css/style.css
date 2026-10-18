@@ -16,7 +16,7 @@ body.dark
     margin: 1em;
     color: white;
     background-color: #111;
-    background-image: linear-gradient(to bottom, #222222, #111);
+    background-image: linear-gradient(to bottom, #333333, #111);
     background-repeat: no-repeat;
     background-size: 100% 120px;
 }
