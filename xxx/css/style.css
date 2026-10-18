@@ -1,0 +1,87 @@
+body
+{
+    margin: 0;
+    min-height: 100vh;
+    color: white;
+    background-color: #111;
+
+    background-image: 
+        linear-gradient(to bottom, #222222, #11111100),
+        linear-gradient(to top, #222222, #11111100),
+        url("../images/sexy-bread.png"); /* actual img */
+
+    background-repeat: no-repeat;
+    background-size: 100% 120px, 100% 120px, cover;
+    background-position: top, bottom, center;
+    background-attachment: scroll, scroll, fixed;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.msgbox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+
+    max-width: 700px; /* box width */
+    width: calc(100% - 32px);
+    margin: 40px auto; /* center */
+    padding: 24px; /* space between edge and text */
+    box-sizing: border-box;
+    
+    background: rgba(17, 17, 17, 0.85);
+    border: 1px solid #999;
+    border-radius: 2px;
+    border-color: #f7f7f7;
+}
+
+.content
+{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.content h1
+{
+    flex: 0 0 150px;
+    margin: 0;
+}
+
+.description
+{
+    display: flex;
+    gap: 16px;
+    min-width: 0;
+}
+
+.description p
+{
+    flex: 1;
+    min-width: 0;
+}
+
+.buttons
+{
+    display: flex;
+    gap: 16px;
+}
+
+.inner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+    min-width: 0;
+    min-height: 110px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    background: #111;
+    border: 1px solid #ff9900;
+    border-radius: 3px;
+}

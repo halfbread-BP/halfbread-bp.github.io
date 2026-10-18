@@ -59,6 +59,8 @@ header
     align-items: center;
     justify-content: center;
     gap: 20px;
+
+    margin-left: 120px;
 }
 
 /* more specifically */
